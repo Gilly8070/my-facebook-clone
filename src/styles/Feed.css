@@ -1,0 +1,101 @@
+
+.feedStatusContainer > div {
+    height: 200px;
+    margin: 0 7px 0 5px;
+    background-color: whitesmoke;
+    /* background-color: #e8e8e4; */
+    width: 125px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+box-shadow: 0px 3px 4px rgb(46, 45, 45);
+}
+.feedStatusContainer > div:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.feedStatusContainer > div  > i {
+margin: 10px;
+/* border: 1px solid red; */
+color: black;
+}
+.feedStatusContainer > div > p {
+/* border: 1px solid red; */
+margin: 15px;
+}
+.msgBoxContainer {
+    min-width: 420px;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+
+border: 1px solid whitesmoke;
+border-bottom: 3px solid rgb(211, 209, 209);
+
+}
+.feedMsgBox {
+border-bottom: 3px solid whitesmoke;
+width: 100%;
+}
+.feedIcon {
+    /* border: 1px solid red; */
+    font-size: 44px;
+}
+.feedInput1, .feedInput2 {
+    /* background-color: black; */
+    outline: none;
+    /* background-color: #f3eeee; */
+    background-color: #e9ecef;
+
+}
+.feedInputContainer {
+width: 100%;
+margin-bottom: 13px;
+    /* border: 1px solid red; */
+}
+.feedInput1 {
+    width: 65%;
+    max-width: 330px;
+}
+.feedInput2 {
+    width: 180px;
+}
+.additionalFeatureContainer {
+    display: flex;
+    width: 100%;
+    /* border: 1px solid red; */
+margin-top: 15px;
+max-width: 550px;
+margin-bottom: 20px;
+}
+.additionalFeatureContainer > div {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 15px;
+    margin-right: 12px;
+    padding: 15px;
+}
+.additionalFeatureContainer > div > i {
+font-size: 22px;
+}
+.additionalFeatureContainer > div > p {
+margin-left: 18px;
+margin-top: 12px;
+font-weight: bold;
+}
+.additionalFeatureContainer > div:hover {
+background-color: #e8e8e4;
+
+cursor: pointer;
+}
+.feedBtn {
+    width: 70px;
+    font-size: 1.1rem;
+    padding: 7px 0;
+}
